@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login And Register Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!-- Created by DONIHSAN -->
+
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Masuk</button>
+                <button type="button" class="toggle-btn" onclick="Register()">Daftar</button>
+            </div>
+
+            <div class="social-icon">
+                <img src="img/Facebook.png">
+                <img src="img/Instagram.png">
+                <img src="img/Tiktok.png">
+            </div>
+
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Name" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>Ingat Password</span>
+                <button type="submit" class="submit-btn">Masuk</button> 
+            </form>
+
+            <form id="Register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Name" required>
+                <input type="email" class="input-field" placeholder="Masukkan Alamat Email" required>
+                <input type="checkbox" class="check-box"><span>Saya Setuju S&K Berlaku</span>
+                <button type="submit" class="submit-btn">Daftar</button> 
+            </form>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
